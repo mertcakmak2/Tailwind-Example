@@ -9,6 +9,7 @@ import PostCardWithPhotos from './components/PostCardWithPhotos';
 import CallToAction from './components/CallToAction';
 import Dashboard from './components/Dashboard';
 import Page from './components/Page';
+
 import Page2 from './components/Page2';
 import Modal from './components/Modal';
 
@@ -16,10 +17,10 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Modal></Modal> */}
-      {/* <Page2></Page2> */}
+      <Modal></Modal>
+      <Page2></Page2>
       <Page></Page>
-      {/* <Dashboard></Dashboard> */}
+      <Dashboard></Dashboard>
       <CallToAction></CallToAction>
       <PostCardWithPhotos></PostCardWithPhotos>
       <AnimatedCards></AnimatedCards>
