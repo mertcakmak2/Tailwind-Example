@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function PostCardWithPhotos() {
     return (
-        <div class="h-screen w-screen flex justify-center items-center bg-slate-900 ">
-            <div class="bg-slate-800 text-white rounded-lg w-full mx-5 md:w-[40rem]  space-y-6 p-10">
+        // <div class="h-screen w-screen flex justify-center items-center bg-slate-900 ">
+            <div class="bg-slate-800 text-white rounded-lg w-full p-10">
                 <div class="flex space-x-4 items-center ">
                     <div class="w-12 h-12"
                     >
@@ -83,6 +83,6 @@ export default function PostCardWithPhotos() {
             </div>
 
 
-        </div>
+        // </div>
     )
 }

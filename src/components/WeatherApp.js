@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function WeatherApp() {
   return (
-    <div class="container mx-auto h-screen w-screen">
-        <div class="flex items-center justify-center h-full">
-          <div class="bg-white shadow-2xl p-6 rounded-2xl border-2 border-gray-50">
+    // <div class="container mx-auto h-screen w-screen">
+        // <div class="flex items-center justify-center h-full">
+          <div class="bg-white shadow-2xl p-8 rounded-2xl border-2  border-gray-50">
             <div class="flex flex-col">
               <div>
                 <h2 class="font-bold text-gray-600 text-center">Bucharest, Romania</h2>
@@ -32,7 +32,7 @@ export default function WeatherApp() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        // </div>
+      // </div>
   )
 }

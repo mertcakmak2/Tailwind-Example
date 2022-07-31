@@ -1,30 +1,33 @@
 import './style.css';
 
-import ProfileCard from './components/ProfileCard';
-import Post from './components/Post';
-import Login from './components/Login';
-import NotFoundPage from './components/NotFoundPage';
-import AnimatedCards from './components/AnimatedCards';
-import PostCardWithPhotos from './components/PostCardWithPhotos';
-import CallToAction from './components/CallToAction';
-import Dashboard from './components/Dashboard';
-import Page from './components/Page';
-import Page2 from './components/Page2';
-import Modal from './components/Modal';
-import WeatherApp from './components/WeatherApp';
-import Card from './components/Card';
-import SharingCard from './SharingCard';
-import Banner from './components/Banner';
-import GetStarted from './components/GetStarted';
+import HomePage from './pages/HomePage/HomePage';
+// import ProfileCard from './components/ProfileCard';
+// import Post from './components/Post';
+// import Login from './components/Login';
+// import NotFoundPage from './components/NotFoundPage';
+// import AnimatedCards from './components/AnimatedCards';
+// import PostCardWithPhotos from './components/PostCardWithPhotos';
+// import CallToAction from './components/CallToAction';
+// import Dashboard from './components/Dashboard';
+// import Header from './components/Header';
+// import Page2 from './components/Page2';
+// import Modal from './components/Modal';
+// import WeatherApp from './components/WeatherApp';
+// import Card from './components/Card';
+// import SharingCard from './SharingCard';
+// import Banner from './components/Banner';
+// import GetStarted from './components/GetStarted';
 
 function App() {
   return (
     <div className="App">
 
+      <HomePage></HomePage>
 
-      <Banner/>
+
+      {/* <Banner/>
       <GetStarted/>
-      <SharingCard></SharingCard>
+      <SharingCard></SharingCard> */}
 
       {/* <Modal></Modal>
       <Card></Card>
